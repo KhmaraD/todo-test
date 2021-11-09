@@ -1,0 +1,127 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  header {
+    display: flex;
+
+    .button-get {
+      margin: 20px;
+      padding: 7px;
+    }
+  }
+
+  .item-todo {
+    padding: 15px;
+    width: 450px;
+    margin-top: 15px;
+    background: linear-gradient(
+                    90deg,
+                    rgba(93, 12, 255, 1) 0%,
+                    rgba(155, 0, 250, 1) 100%
+    );
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .item-text {
+      cursor: pointer;
+    }
+    .item-control {
+      display: flex;
+
+      .item-info, .item-delete{
+        font-size: 22px;
+        padding-left: 12px;
+      }
+
+      .item-info a:hover, .item-delete:hover {
+        color: orangered;
+      }
+      .item-info a {
+        text-decoration: none;
+        color: #ffffff;
+      }
+    }
+
+  }
+
+  input {
+    padding: 14px 32px 14px 16px;
+    border-radius: 4px 0 0 4px;
+    border: 2px solid #5d0cff;
+    outline: none;
+    background: transparent;
+    width: 250px;
+  }
+
+  .button-add {
+    border-radius: 0 4px 4px 0;
+  }
+
+  button {
+    padding: 16px 7px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    background: linear-gradient(
+                    90deg,
+                    rgba(93, 12, 255, 1) 0%,
+                    rgba(155, 0, 250, 1) 100%
+    );
+    color: #fff;
+    text-transform: capitalize;
+  }
+  button:hover {
+    background: linear-gradient(
+                    90deg,
+                    rgba(155, 0, 250, 1) 100%,
+                    rgba(93, 12, 255, 1) 0%
+    );
+  }
+
+  .strike {
+    text-decoration: line-through;
+  }
+}
+
+.task-item {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  width: 500px;
+  text-align: center;
+  background: linear-gradient(
+                  90deg,
+                  rgba(93, 12, 255, 1) 0%,
+                  rgba(155, 0, 250, 1) 100%
+  );
+  color: #ffffff;
+  border-radius: 20px;
+  padding: 30px 0;
+
+  p {
+    font-size: 20px;
+  }
+
+  .color-red{
+    color: orangered;
+  }
+  .color-green {
+    color: greenyellow;
+  }
+  .back-btn {
+    width: 100px;
+    margin: 0 auto;
+    padding: 10px 7px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+}
