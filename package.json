@@ -1,6 +1,7 @@
 {
   "name": "todo-test",
   "version": "0.1.0",
+  "license": "MIT",
   "private": true,
   "homepage": "https://khmarad.github.io/todo-test/",
   "dependencies": {
